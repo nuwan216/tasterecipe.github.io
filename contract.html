@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Chicken_Meatballs</title>
+<style type="text/css">
+
+.auto-style1 {
+	text-align: left;
+}
+header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+                 }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            
+            border: 1px solid #ccc;
+            
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            
+            cursor: pointer;
+        }
+        
+.title01{
+	font-size:xx-large;
+	font-weight:bolder;
+	text-align:center;
+	color:blue;
+}
+
+.auto-style2 {
+	font-size: xx-large;
+	font-weight: bolder;
+	color: blue;
+	text-align: center;
+}
+footer{
+text-align:center;
+background-color:gray;
+padding:5px;
+color:white;
+margin-bottom:0px;
+padding-bottom:0px;
+
+}
+
+.auto-style3 {
+	color: #F8F8FC;
+}
+
+</style>
+
+<meta name="keywords" content="Chicken, Meatballs,Recipe">
+<meta name="description" content="Chicken Meatballs and Spaghetti Recipe">
+</head>
+
+<body style="margin: 0">
+<div style="height:60px;background-color:gray; text-align:center"><h1 style="padding:15px">About us and Feedback section</h1></div>
+
+<div class="auto-style2"><br />
+	"Let's Talk Flavor! Reach Out for Recipe Requests, Inquiries, or Just to Say Hello."</div>
+<div style="padding:15px">
+	<table>
+		<tr>
+			<td style="width:500px">
+			<img alt="girl" height="650px"  src="pretty-smiling-woman-transperent-glasses.jpg" width="399" /></td>
+			<td style="width:500px" class="auto-style1">
+	<header>
+        <h1>Recipe Submission Form</h1>
+        <p>Share your recipes and ideas with us!</p>
+    </header>
+
+    <form action="submit_form.php" method="post">
+        <label for="recipeTitle">Recipe Title:</label>
+        <input type="text" id="recipeTitle" name="recipeTitle" required/>
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="4" required></textarea>
+
+        <label for="contactDetails">Contact Details:</label>
+        <input type="text" id="contactDetails" name="contactDetails" required/>
+
+        <label for="rating">Rate the Recipe (1-5):</label>
+        <input type="number" id="rating" name="rating" min="1" max="5"/>
+
+        <label for="ideasSuggestions">Ideas or Suggestions:</label>
+        <textarea id="ideasSuggestions" name="ideasSuggestions" rows="4"></textarea>
+
+        <label for="specificRecipe">Specific Recipe (if any):</label>
+        <input type="text" id="specificRecipe" name="specificRecipe"/>
+
+        <button type="submit">Submit</button>
+    </form>
+	</td>
+
+		</tr>
+	</table>
+</div>
+    
+</body>
+
+<footer>
+    <h2>Creative Recipe Group Pvt/Ltd</h2>
+    <address>
+        <p>Colombo 06<br />Sri Lanka<br />Tel: 0114 567 888<br />
+            <a href="mailto:recipe@gmail.com" class="auto-style3">Send Mail</a>
+        </p>
+    </address>
+</footer>
+</html>
